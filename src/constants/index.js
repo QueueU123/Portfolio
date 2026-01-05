@@ -16,6 +16,11 @@ export const navLinks = [
     },
     {
         id: 4,
+        name: 'Skills',
+        href: '#skills',
+    },
+    {
+        id: 5,
         name: 'Contact',
         href: '#contact',
     },
@@ -65,34 +70,34 @@ export const myProjects = [
         subdesc:
             'Architected with Spring Boot, Java, and PostgreSQL. Engineered for high-performance resource tracking, data integrity, and complex relational mapping.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/smarts.mp4',
-        logo: '/assets/smartslogo.png',
+        texture: './textures/project/smarts.mp4',
+        logo: './assets/smartslogo.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: './assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'SpringBoot',
-                path: '/assets/springboot.png',
+                path: './assets/springboot.png',
             },
             {
                 id: 2,
                 name: 'PostGre',
-                path: 'assets/postgre.png',
+                path: './assets/postgre.png',
             },
             {
                 id: 3,
                 name: 'Java',
-                path: '/assets/java.png',
+                path: './assets/java.png',
             },
             {
                 id: 4,
                 name: 'JavaScript',
-                path: '/assets/js.png',
+                path: './assets/js.png',
             },
         ],
     },
@@ -102,19 +107,19 @@ export const myProjects = [
         subdesc:
             'Built using Python, TensorFlow, and Django. Features real-time severity mapping and SHAP/LIME integration to provide transparent, feature-importance breakdowns for clinical assessments.',
         href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/clearmind.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: './textures/project/clearmind.mp4',
+        logo: './assets/ust.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: './assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'Python',
-                path: '/assets/python.png',
+                path: './assets/python.png',
             },
             {
                 id: 2,
@@ -124,13 +129,50 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'SciKit',
-                path: '/assets/scikit.png',
+                path: './assets/scikit.png',
             },
             {
                 id: 4,
                 name: 'django',
-                path: '/assets/dj.png',
+                path: './assets/dj.png',
             },
+        ],
+    },
+    {
+        title: 'DreamSnap - Generative AI Financial Partner for Product Ownership',
+        desc: 'DreamSnap is a multi-modal AI platform that converts aspirational window shopping into structured ownership plans. It eliminates "Hesitation Friction" by providing instant affordability pitches and guides long-term goals through a gamified "Battle Pass" progression model.',
+        subdesc:
+            'Built using Figma and Google Vision API. Designed for high-accuracy product recognition, dynamic credit re-forecasting, and seamless integration with existing marketplace infrastructures.',
+        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        texture: './textures/project/credit.mp4',
+        logo: './assets/dreamsnap.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: './assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: './assets/figma.png',
+            },
+            // {
+            //     id: 2,
+            //     name: 'Tensor Flow',
+            //     path: 'assets/tensorflow.png',
+            // },
+            // {
+            //     id: 3,
+            //     name: 'SciKit',
+            //     path: './assets/scikit.png',
+            // },
+            // {
+            //     id: 4,
+            //     name: 'django',
+            //     path: './assets/dj.png',
+            // },
         ],
     },
     // {
@@ -328,9 +370,9 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
         deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
         cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -7, 0] : isTablet ? [6, -7, 0] : [9, -5.5, 0],
-        reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5.40, 2.6, 0] : isTablet ? [7, 2, 0] : [12, 3, 0],
-        ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-12, 5, 0] : isTablet ? [-15, 5, 2] : [-22, 10, 2],
-        targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+        reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5.40, 2.6, 0] : isTablet ? [7, 2, 0] : [10, 1.8, 0],
+        ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-12, 5, 0] : isTablet ? [-15, 5, 2] : [-25, 5, 2],
+        targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-18, -13, -10],
     };
 };
 
@@ -343,7 +385,7 @@ export const workExperiences = [
         duration: 'Intermediate',
         title: "• Experienced in object-oriented programming." +
             "\n• Proficient in implementing complex logic for graphical projects and software systems.",
-        icon: '/assets/java.png',
+        icon: './assets/java.png',
         animation: 'victory',
     },
     {
@@ -353,7 +395,7 @@ export const workExperiences = [
         duration: 'Beginner',
         title: "• Applied machine learning techniques using hybrid ANN-RF models for data classification." +
             "\n• Familiar with Explainable AI (XAI) tools like SHAP/LIME and backend development using Django.",
-        icon: '/assets/python.png',
+        icon: './assets/python.png',
         animation: 'clapping',
     },
     {
@@ -363,7 +405,7 @@ export const workExperiences = [
         duration: 'Beginner',
         title: "• Developing foundational skills in building component-based user interfaces and frontend web architecture." +
             "\n• Focused on translating modern design concepts into functional, interactive web applications.",
-        icon: '/assets/react.svg',
+        icon: './assets/react.svg',
         animation: 'salute',
     },
 ];

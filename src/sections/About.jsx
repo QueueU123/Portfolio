@@ -16,7 +16,7 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-5 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src = "/assets/gridmarc.png" alt="grid-1" className="w-full sm:h-[476px] h-fit object-contain"></img>
+                        <img src = "assets/gridmarc.png" alt="grid-1" className="w-full sm:h-[476px] h-fit object-contain"></img>
                         <div>
                             <p className="grid-headtext">Hi, I'm Marc</p>
                             <p className="grid-subtext">As a Computer Science specializing in full-stack development,
@@ -27,7 +27,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                    <img src="/assets/whoaa.png" alt="grid-2" className="w-full sm:w-[576px] h-fit object-contain]"/>
+                    <img src="assets/whoaa.png" alt="grid-2" className="w-full sm:w-[576px] h-fit object-contain]"/>
                        <div>
                         <p className="grid-headtext">Tech Stack</p>
                         <p className="grid-subtext">Currently specializing in Three.js for immersive web development, alongside a strong
@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
                         <div className="col-span-1 xl:row-span-3">
-                            <div className="grid-container">
+                            <div className="grid-container flex flex-col justify-center items-center text-center">
                                 <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                                     <Globe
                                         height = {426}
@@ -55,7 +55,7 @@ const About = () => {
                                         }]}
                                     />
                                 </div>
-                                <div>
+                                <div className="flex flex-col items-center text-center">
                                     <p className="grid-headtext">
                                         I work remotely across most timezones
                                     </p>
@@ -70,7 +70,7 @@ const About = () => {
                         </div>
                         <div className="xl:col-span-2 xl:row-span-2">
                             <div className="grid-container">
-                                <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain"/>
+                                <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain"/>
                                 <div>
                                     <p className="grid-headtext">My Passion for Coding</p>
                                     <p className="grid-subtext">I love solving problems and building things through code. Coding

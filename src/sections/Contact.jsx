@@ -30,7 +30,7 @@ const Contact = () => {
                 from_name: form.name,
                 to_name: 'Marc',
                 from_email: form.email,
-                to_email: 'senpaisalt@gmail.com',
+                to_email: 'mokotana28@yahoo.com',
                 message: form.message
             },
              'rH23SufTXpaKX9B4O'
@@ -54,7 +54,7 @@ const Contact = () => {
     return (
         <section className="c-space my-30" id="contact">
             <div className="relative min-h-screen flex items-center justify-center flex-col">
-                <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen h-full w-full"/>
+                <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen h-full w-full"/>
                 <div className="contact-container ">
                     <h3 className="head-text">Let's talk</h3>
                     <p className="text-lg text-white-600 mt-3">Whether you're looking to build a new website,
@@ -98,7 +98,7 @@ const Contact = () => {
                         </label>
                         <button className="field-btn" type="submit" disabled={loading}>
                             {loading ? 'Sending...' : 'Send Message'}
-                            <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+                            <img src="assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
                         </button>
                     </form>
                 </div>

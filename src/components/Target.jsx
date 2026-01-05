@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import {Canvas, useFrame} from "@react-three/fiber";
 
 const Target = (props) => {
-    const { nodes, materials } = useGLTF('/models/target.glb')
+    const { nodes, materials } = useGLTF('models/target.glb')
     const targetRef = useRef()
 
     //Animation Loop
@@ -54,6 +54,6 @@ const Target = (props) => {
     )
 }
 
-useGLTF.preload('/models/target.glb')
+useGLTF.preload('models/target.glb')
 
 export default Target

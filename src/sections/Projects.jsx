@@ -21,7 +21,7 @@ const Projects = () => {
     }
 
     return (
-        <section className="c-space mt-10 mb-5">
+        <section className="c-space mt-10 mb-5" id="work">
             <p className="head-text">
                 My Work
             </p>
@@ -54,11 +54,11 @@ const Projects = () => {
 
                     <div className="flex justify-between items-center mt-7">
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-                            <img src="/assets/left-arrow.png" alt="left arrow" className="w-4 h-4" />
+                            <img src="assets/left-arrow.png" alt="left arrow" className="w-4 h-4" />
                         </button>
 
                         <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-                            <img src="/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
+                            <img src="assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
                         </button>
                     </div>
                 </div>

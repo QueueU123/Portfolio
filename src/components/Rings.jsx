@@ -18,7 +18,7 @@ const Rings = ({ position }) => {
             if (refList.current.length === 0) return;
 
             refList.current.forEach((r) => {
-                r.position.set(position[0], position[1], position[2]);
+                r.position.set(position[0] + 2, position[1], position[2]);
             });
 
             gsap
