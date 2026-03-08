@@ -2,7 +2,7 @@
 A comprehensive digital showcase of my journey as a **Data Science** , **Software Developer** , and **Cybersecurity professional**. This portfolio serves as a central hub for my academic projects, technical skills, and professional milestones, designed to bridge the gap between complex data insights and functional software solutions. 🚀
 
 ## 📝 Introduction
-This portfolio is a reflection of my growth as a 4th-year Computer Science student at the University of Santo Tomas. Beyond just a list of links, it tells the story of how I approach problem-solving—whether I'm building a subcontracting system like SMARTS, developing AI models for my thesis, or designing architectural concepts like the Yugto Tower. It is built to be clean, responsive, and professional. 💡
+This portfolio is a reflection of my growth as a 4th-year Computer Science student at the University of Santo Tomas. Beyond just a list of links, it tells the story of how I approach problem-solving whether I'm building a subcontracting system like SMARTS, developing AI models for my thesis, or designing architectural concepts like the Yugto Tower. It is built to be clean, responsive, and professional. 💡
 
 ## 🛠️ Technologies Used
 To ensure a smooth user experience and easy maintenance, I utilized:
@@ -27,7 +27,7 @@ To ensure a smooth user experience and easy maintenance, I utilized:
 * 🌑 **Thematic Design:** A modern aesthetic that balances professionalism with my personal brand.
 
 ## ⚙️ The Process
-* 🔍 **Concept & Layout:** I started by mapping out the user journey—ensuring that my most impactful projects (like my AI Thesis) were front and center.
+* 🔍 **Concept & Layout:** I started by mapping out the user journey, ensuring that my most impactful projects (like my AI Thesis) were front and center.
 
 * 📐 **Styling:** I focused on a minimalist design language that allows the project content to speak for itself without unnecessary clutter.
 
@@ -38,7 +38,7 @@ To ensure a smooth user experience and easy maintenance, I utilized:
 ## 🧠 What I Learned
 Building this portfolio taught me the importance of Personal Branding in the tech industry:
 
-* 🔗 **Cohesion:** I learned how to tie together diverse interests—like Data Science and Architecture—into a singular, professional narrative.
+* 🔗 **Cohesion:** I learned how to tie together diverse interests like Data Science and Architecture into a singular, professional narrative.
 
 * 🛠️ **Deployment Workflows:** I gained hands-on experience with GitHub Pages and custom domain configuration.
 
